@@ -1,0 +1,163 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+    background-color: #8B7355;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+a{
+    margin-right: 20px;
+}
+
+h2 {
+    margin-right: 20px;
+     text-align: right;
+     /* Add margin to separate the logout link from the left edge */
+}
+
+/* Thêm đoạn mã CSS sau vào file CSS của bạn */
+
+.logout-link {
+    color: white; /* Set the text color to white */
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px; /* Đặt kích thước chữ thành 16px */
+}
+
+nav a.logout-link {
+    margin-right: auto;
+    color: white;
+    font-size: 16px; /* Đặt kích thước chữ thành 16px */
+    list-style: none;
+    text-align: right; /* Dựa vào mẫu của bạn, bạn có thể thấy không cần thiết */
+}
+
+
+nav {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #EEEEEE;
+}
+
+nav a.logout-link {
+    margin-right: auto;
+    color: white;
+    font-size: 14px; 
+    list-style: none;
+    text-align: right;/* Adjust the font size as needed */
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.cart-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.update-btn, .remove-btn {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.update-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.remove-btn {
+    background-color: #f44336;
+    color: white;
+}
+/* Style the footer */
+#clothing-section {
+  padding: 20px;
+  text-align: center; /* Canh giữa nội dung trong clothing-section */
+}
+
+.clothing-item {
+  display: inline-block; /* Hiển thị các clothing-item cùng một dòng */
+  margin: 0 10px; /* Thêm khoảng cách giữa các clothing-item */
+}
+
+.clothing-item img {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  background-color: #8B7355;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.contact-item {
+  text-align: center;
+}
+
+.contact-item img {
+  max-width: 30px;
+  max-height: 30px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+}
+.admin-home-page,
+        .username-btn {
+            text-align: left;
+            padding: 10px;
+            background-color: #CDBA96; /* Green background color */
+            color: white; /* White text color */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Optional: rounded corners */
+            cursor: pointer;
+        }
+
+        .username-btn:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }

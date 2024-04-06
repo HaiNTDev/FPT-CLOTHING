@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2023, 2:36:38 PM
+    Author     : Mộng Quỳnh
+*/
+
+/* HomeStyle.css */
+
+/* Reset some default styles for better consistency across browsers */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and some basic styling to the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #8B7355;
+  line-height: 1.6;
+}
+
+/* Style the header */
+header {
+  background-color: #8B7355;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the clothing section */
+#clothing-section {
+  padding: 20px;
+}
+
+h2 {
+  color: #8B7355;
+}
+
+.clothing-item {
+  margin-bottom: 20px;
+}
+
+.clothing-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the footer */
+#clothing-section {
+  padding: 20px;
+  text-align: center; /* Canh giữa nội dung trong clothing-section */
+}
+
+h2 {
+  color: #8B7355;
+  margin-bottom: 20px; /* Thêm khoảng cách dưới tiêu đề */
+}
+
+.clothing-item {
+  display: inline-block; /* Hiển thị các clothing-item cùng một dòng */
+  margin: 0 10px; /* Thêm khoảng cách giữa các clothing-item */
+}
+
+.clothing-item img {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  background-color: #8B7355;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  text-align: center;
+}
+
+.contact-item img {
+  max-width: 30px;
+  max-height: 30px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+}

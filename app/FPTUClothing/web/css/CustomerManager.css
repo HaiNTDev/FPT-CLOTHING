@@ -1,0 +1,156 @@
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8B7355;
+    color: #8B7355;
+    line-height: 1.6;
+}
+
+/* Style the header */
+
+header {
+    background-color: #8B7355;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+h2 {
+    margin-top: 5px;
+      text-align: right;
+        color: #333;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Style the main content */
+main {
+    width: 100%;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+/* Style the buttons */
+button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.update-btn {
+    background-color: #3498db;
+    color: #ecf0f1;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+/* Hover effect on buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Style the footer */
+footer {
+    background-color: #8B7355;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item img {
+    max-width: 30px;
+    max-height: 30px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+#clothing-section {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.clothing-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.clothing-item img {
+    max-width: 100%;
+    height: auto;
+}
+.admin-home-page,
+        .username-btn {
+            text-align: center;
+            padding: 10px;
+            background-color: #CDBA96; /* Green background color */
+            color: white; /* White text color */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Optional: rounded corners */
+            cursor: pointer;
+        }
+
+        .username-btn:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
